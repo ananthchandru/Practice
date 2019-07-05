@@ -13,10 +13,10 @@ public class FirstLastApp {
 		theList.insertFirst(88);
 		
 		//insertLast
-		theList.insertFirst(33);
-		theList.insertFirst(55);
-		theList.insertFirst(77);
-		theList.insertFirst(99);
+		theList.insertLast(33);
+		theList.insertLast(55);
+		theList.insertLast(77);
+		theList.insertLast(99);
 		
 		theList.displayList();
 		
