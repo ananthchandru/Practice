@@ -57,8 +57,8 @@ public class ListIterator {
 		}
 	}
 	
-	public long deleteCurrent() {
-		long value = current.iData;
+	public int deleteCurrent() {
+		int value = current.iData;
 		if(previous == null) {
 			ourList.setFirst(current.next);
 			reset();
