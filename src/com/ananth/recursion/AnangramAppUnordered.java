@@ -3,7 +3,7 @@ package com.ananth.recursion;
 public class AnangramAppUnordered {
 	
 	public static void main(String[] args)	{
-		anag("CAT", "");
+		anag("AAA", "");
 	}
 
 	public static void anag(String string, String permutation)	{
@@ -12,7 +12,7 @@ public class AnangramAppUnordered {
 		}
 		for(int i = 0; i < string.length(); i++)	{
 			char toAppendToPermutation = string.charAt(i);
-			String remaining = string.substring(0, i) + string.substring(i + 1);
+			String remaining = string.substring(0, i) + string.substring(i+1);
 			anag(remaining, permutation + toAppendToPermutation);
 		}
 	}
